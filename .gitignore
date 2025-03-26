@@ -1,6 +1,8 @@
 # .NET build artifacts
 bin/
 obj/
+**/obj/
+**/bin/
 Debug/
 Release/
 *.user
@@ -31,6 +33,11 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+
+# Stronger obj exclusions
+**/*.o
+**/*.obj
+**/obj/**/*
 
 # NuGet packages
 *.nupkg
