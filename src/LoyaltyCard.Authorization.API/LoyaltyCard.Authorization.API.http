@@ -1,0 +1,19 @@
+@LoyaltyCardAuthorizationAPIHostAddress = http://localhost:5181
+
+### Login as Admin
+POST {{LoyaltyCardAuthorizationAPIHostAddress}}/auth/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin123"
+}
+
+### Login as User
+POST {{LoyaltyCardAuthorizationAPIHostAddress}}/auth/login
+Content-Type: application/json
+
+{
+    "username": "user",
+    "password": "user123"
+}

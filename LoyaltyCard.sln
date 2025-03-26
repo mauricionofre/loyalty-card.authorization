@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B11ACEC1-DAC0-4B89-BEE7-C5C8F7A56994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.API", "src\LoyaltyCard.Authorization.API\LoyaltyCard.Authorization.API.csproj", "{BA8F41C4-EC9B-4C90-B37E-725A7BD02FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.Application", "src\LoyaltyCard.Authorization.Application\LoyaltyCard.Authorization.Application.csproj", "{0BA7D1BC-EC1F-4103-BDD9-25582B4779D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.Domain", "src\LoyaltyCard.Authorization.Domain\LoyaltyCard.Authorization.Domain.csproj", "{62006F49-C92B-4008-B538-F45F827FB7A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.Infrastructure", "src\LoyaltyCard.Authorization.Infrastructure\LoyaltyCard.Authorization.Infrastructure.csproj", "{227F5212-D2AE-4739-8765-7844A47BF6BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.Tests", "src\LoyaltyCard.Authorization.Tests\LoyaltyCard.Authorization.Tests.csproj", "{4D2E5328-79FA-4C83-8CD6-073AC549996F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA8F41C4-EC9B-4C90-B37E-725A7BD02FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8F41C4-EC9B-4C90-B37E-725A7BD02FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8F41C4-EC9B-4C90-B37E-725A7BD02FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8F41C4-EC9B-4C90-B37E-725A7BD02FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA7D1BC-EC1F-4103-BDD9-25582B4779D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA7D1BC-EC1F-4103-BDD9-25582B4779D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA7D1BC-EC1F-4103-BDD9-25582B4779D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA7D1BC-EC1F-4103-BDD9-25582B4779D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62006F49-C92B-4008-B538-F45F827FB7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62006F49-C92B-4008-B538-F45F827FB7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62006F49-C92B-4008-B538-F45F827FB7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62006F49-C92B-4008-B538-F45F827FB7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227F5212-D2AE-4739-8765-7844A47BF6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227F5212-D2AE-4739-8765-7844A47BF6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227F5212-D2AE-4739-8765-7844A47BF6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227F5212-D2AE-4739-8765-7844A47BF6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2E5328-79FA-4C83-8CD6-073AC549996F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2E5328-79FA-4C83-8CD6-073AC549996F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2E5328-79FA-4C83-8CD6-073AC549996F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2E5328-79FA-4C83-8CD6-073AC549996F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA8F41C4-EC9B-4C90-B37E-725A7BD02FE4} = {B11ACEC1-DAC0-4B89-BEE7-C5C8F7A56994}
+		{0BA7D1BC-EC1F-4103-BDD9-25582B4779D7} = {B11ACEC1-DAC0-4B89-BEE7-C5C8F7A56994}
+		{62006F49-C92B-4008-B538-F45F827FB7A0} = {B11ACEC1-DAC0-4B89-BEE7-C5C8F7A56994}
+		{227F5212-D2AE-4739-8765-7844A47BF6BB} = {B11ACEC1-DAC0-4B89-BEE7-C5C8F7A56994}
+		{4D2E5328-79FA-4C83-8CD6-073AC549996F} = {B11ACEC1-DAC0-4B89-BEE7-C5C8F7A56994}
+	EndGlobalSection
+EndGlobal
