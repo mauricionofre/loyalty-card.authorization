@@ -40,3 +40,4 @@
 /Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.API/obj/Debug/net9.0/LoyaltyCard.Authorization.API.pdb
 /Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.API/obj/Debug/net9.0/LoyaltyCard.Authorization.API.genruntimeconfig.cache
 /Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.API/obj/Debug/net9.0/ref/LoyaltyCard.Authorization.API.dll
+/Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.API/obj/Debug/net9.0/LoyaltyCard.Authorization.API.sourcelink.json

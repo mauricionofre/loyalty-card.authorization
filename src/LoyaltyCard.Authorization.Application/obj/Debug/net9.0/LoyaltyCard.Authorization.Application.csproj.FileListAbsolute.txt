@@ -9,3 +9,4 @@
 /Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.Application/obj/Debug/net9.0/refint/LoyaltyCard.Authorization.Application.dll
 /Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.Application/obj/Debug/net9.0/LoyaltyCard.Authorization.Application.pdb
 /Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.Application/obj/Debug/net9.0/ref/LoyaltyCard.Authorization.Application.dll
+/Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.Application/obj/Debug/net9.0/LoyaltyCard.Authorization.Application.sourcelink.json

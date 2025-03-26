@@ -96,3 +96,4 @@
 /Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.Tests/obj/Debug/net9.0/LoyaltyCard.Authorization.Tests.pdb
 /Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.Tests/obj/Debug/net9.0/LoyaltyCard.Authorization.Tests.genruntimeconfig.cache
 /Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.Tests/obj/Debug/net9.0/ref/LoyaltyCard.Authorization.Tests.dll
+/Users/mauricio/Repo/loyalty-card/loyalty-card.authorization/src/LoyaltyCard.Authorization.Tests/obj/Debug/net9.0/LoyaltyCard.Authorization.Tests.sourcelink.json
