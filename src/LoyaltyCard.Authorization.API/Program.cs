@@ -1,4 +1,6 @@
 using LoyaltyCard.Authorization.API.Services;
+using LoyaltyCard.Authorization.Application.Services;
+using LoyaltyCard.Authorization.Domain.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -10,6 +12,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers();
+
+// Configure CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
+    });
+});
 
 // Configure JWT Authentication
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
@@ -49,11 +63,14 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+// Use CORS - Important: Must be before UseRouting/UseEndpoints and after UseHttpsRedirection
+app.UseCors("AllowAngularApp");
+
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
 
+app.Run();

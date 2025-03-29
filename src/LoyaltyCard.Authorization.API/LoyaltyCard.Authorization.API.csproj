@@ -10,7 +10,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.0.0" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../LoyaltyCard.Authorization.Application/LoyaltyCard.Authorization.Application.csproj" />
+    <ProjectReference Include="../LoyaltyCard.Authorization.Domain/LoyaltyCard.Authorization.Domain.csproj" />
   </ItemGroup>
 
 </Project>

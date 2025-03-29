@@ -1,5 +1,6 @@
-using LoyaltyCard.Authorization.API.Models;
-using LoyaltyCard.Authorization.API.Services;
+
+using LoyaltyCard.Authorization.Domain.Interfaces;
+using LoyaltyCard.Authorization.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LoyaltyCard.Authorization.API.Controllers
@@ -20,7 +21,7 @@ namespace LoyaltyCard.Authorization.API.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            var user = _userService.Authenticate(request.Username, request.Password);
+            var user = _userService.Authenticate(request.Email, request.Password);
             
             if (user == null)
                 return Unauthorized(new { message = "Username or password is incorrect" });
