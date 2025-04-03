@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.Domain", "src\LoyaltyCard.Authorization.Domain\LoyaltyCard.Authorization.Domain.csproj", "{62006F49-C92B-4008-B538-F45F827FB7A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.Infrastructure", "src\LoyaltyCard.Authorization.Infrastructure\LoyaltyCard.Authorization.Infrastructure.csproj", "{227F5212-D2AE-4739-8765-7844A47BF6BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.Infra.Data", "src\LoyaltyCard.Authorization.Infrastructure\LoyaltyCard.Authorization.Infra.Data.csproj", "{227F5212-D2AE-4739-8765-7844A47BF6BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyaltyCard.Authorization.Tests", "src\LoyaltyCard.Authorization.Tests\LoyaltyCard.Authorization.Tests.csproj", "{4D2E5328-79FA-4C83-8CD6-073AC549996F}"
 EndProject

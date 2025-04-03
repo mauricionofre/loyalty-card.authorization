@@ -3,20 +3,15 @@ using System.Text;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using LoyaltyCard.Authorization.Domain.Interfaces;
-using LoyaltyCard.Authorization.Domain.Models;
+using LoyaltyCard.Authorization.Domain.Models.Tokens;
+using LoyaltyCard.Authorization.Domain.Models.Users;
 
 
 namespace LoyaltyCard.Authorization.API.Services;
 
-public class TokenService : ITokenService
+public class TokenService(string secretKey) : ITokenService
 {
-    private readonly string _secretKey;
-
-    public TokenService(string secretKey)
-    {
-        _secretKey = secretKey;
-    }
-
+    readonly string _secretKey = secretKey ?? throw new ArgumentNullException(nameof(secretKey));
     public TokenResponse GenerateToken(User user)
     {
         var tokenHandler = new JwtSecurityTokenHandler();

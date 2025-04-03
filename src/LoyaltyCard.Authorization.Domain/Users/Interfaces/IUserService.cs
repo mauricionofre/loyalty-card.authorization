@@ -1,4 +1,5 @@
-using LoyaltyCard.Authorization.Domain.Models;
+
+using LoyaltyCard.Authorization.Domain.Models.Users;
 
 namespace LoyaltyCard.Authorization.Domain.Interfaces;
 

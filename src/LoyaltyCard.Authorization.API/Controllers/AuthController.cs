@@ -1,6 +1,6 @@
 
+using LoyaltyCard.Authorization.API.Models;
 using LoyaltyCard.Authorization.Domain.Interfaces;
-using LoyaltyCard.Authorization.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LoyaltyCard.Authorization.API.Controllers
